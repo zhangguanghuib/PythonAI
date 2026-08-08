@@ -54,3 +54,5 @@ if __name__ == "__main__":
     response = model.invoke("Explain LangGraph in two sentences.")
     print(response.content)
 ```
+See it works:<br/>
+<img width="1782" height="1042" alt="image" src="https://github.com/user-attachments/assets/75edc436-9f95-43e5-95fa-0420a6e6e6d6" />
