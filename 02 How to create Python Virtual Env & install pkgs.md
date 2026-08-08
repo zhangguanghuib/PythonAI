@@ -1,4 +1,4 @@
-### 1. Create a folder called langgraph
+<img width="1710" height="517" alt="image" src="https://github.com/user-attachments/assets/e0ac0959-f217-49ac-91f8-ef695b8fefbc" />### 1. Create a folder called langgraph
 ```ps
 uv venv venvLangGraph --python 3.13
 .\venvLangGraph\Scripts\activate
@@ -27,3 +27,30 @@ Finally see the package are installing:<br/>
 
 Wait some minutes, you can see the packages are installed:<br/>
 <img width="1917" height="1556" alt="image" src="https://github.com/user-attachments/assets/c4b0de65-1d13-4dba-bf15-67a7c310be88" />
+
+### 4.  Test
+.env file is:
+```
+DASHSCOPE_API_KEY=sk-*************************K0
+BAILIAN_MODEL=deepseek-v4-flash
+BAILIAN_BASE_URL=https://llm-553bcdr8n87xlijd.cn-beijing.maas.aliyuncs.com/compatible-mode/v1
+```
+main.py
+```
+import os
+
+from dotenv import load_dotenv
+from langchain_openai import ChatOpenAI
+
+if __name__ == "__main__":
+    load_dotenv()  # Load environment variables from .env file
+
+    model = ChatOpenAI(
+        model=os.getenv("BAILIAN_MODEL", "deepseek-v3.2"),
+        api_key=os.environ["DASHSCOPE_API_KEY"],
+        base_url=os.environ["BAILIAN_BASE_URL"],
+    )
+
+    response = model.invoke("Explain LangGraph in two sentences.")
+    print(response.content)
+```
