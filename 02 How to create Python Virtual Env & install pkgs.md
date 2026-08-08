@@ -22,5 +22,5 @@ Untill you see<br/>
 ```
 Here please make sure you use the python.exe from virtual environment to install all the packages, otherwise the packages will be installed the global python environment
 
-Finally see the package are instalelling:<br/>
+Finally see the package are installing:<br/>
 <img width="1853" height="1556" alt="image" src="https://github.com/user-attachments/assets/0d27e75e-9972-4d1a-8856-c58a30746372" />
