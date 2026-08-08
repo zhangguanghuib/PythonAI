@@ -20,6 +20,25 @@ Untill you see<br/>
 ```
 .\venvLangGraph\Scripts\python.exe -m pip install -r .\requirements.txt
 ```
+```text
+# =============================================================
+# 🟠LangChain 核心框架
+# 作用: LangChain 1.x 主体、核心抽象、社区组件、实验性组件、文本切分器
+# =============================================================
+langchain==1.2.12
+langchain-core==1.5.3
+langchain-community==0.4.1
+langchain-classic==1.0.2
+langchain-text-splitters==1.1.1
+langchain-experimental==0.4.1
+langchain-openai==1.4.1
+
+# =============================================================
+# jupyter
+# 作用: 交互式编程记事本，默认安装最新版即可
+# =============================================================
+jupyter
+```
 Here please make sure you use the python.exe from virtual environment to install all the packages, otherwise the packages will be installed the global python environment
 
 Finally see the package are installing:<br/>
