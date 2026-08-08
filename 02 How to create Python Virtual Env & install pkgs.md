@@ -24,3 +24,6 @@ Here please make sure you use the python.exe from virtual environment to install
 
 Finally see the package are installing:<br/>
 <img width="1853" height="1556" alt="image" src="https://github.com/user-attachments/assets/0d27e75e-9972-4d1a-8856-c58a30746372" />
+
+Wait some minutes, you can see the packages are installed:<br/>
+<img width="1917" height="1556" alt="image" src="https://github.com/user-attachments/assets/c4b0de65-1d13-4dba-bf15-67a7c310be88" />
