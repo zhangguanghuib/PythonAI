@@ -8,3 +8,6 @@
 
 
 2. Click "创建API Key"创建一个新的API Key
+
+   <img width="2485" height="1268" alt="image" src="https://github.com/user-attachments/assets/fbe75c6a-b1aa-4954-acf7-a946e10932a8" /><br/>
+
