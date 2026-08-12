@@ -20,6 +20,30 @@ COPILOT_STUDIO_DIRECT_CONNECT_URL=https://example.environment.api.powerplatform.
 COPILOT_STUDIO_TENANT_ID=your-microsoft-entra-tenant-id
 COPILOT_STUDIO_CLIENT_ID=your-public-client-application-id
 ```
+requirements.txt:
+```
+# =============================================================
+# 🟠LangChain 核心框架
+# 作用: LangChain 1.x 主体、核心抽象、社区组件、实验性组件、文本切分器
+# =============================================================
+langchain==1.2.12
+langchain-core==1.5.3
+langchain-community==0.4.1
+langchain-classic==1.0.2
+langchain-text-splitters==1.1.1
+langchain-experimental==0.4.1
+langchain-openai==1.4.1
+langchain-deepseek
+httpx==0.28.1
+microsoft-agents-copilotstudio-client
+msal
+
+# =============================================================
+# jupyter
+# 作用: 交互式编程记事本，默认安装最新版即可
+# =============================================================
+jupyter
+```
 Python code
 ```py
 import asyncio
@@ -211,4 +235,7 @@ def main() -> None:
 if __name__ == "__main__":
     main()
 ```
+## 4. Verify from terminal
+<img width="1441" height="1072" alt="image" src="https://github.com/user-attachments/assets/525d8155-fec8-48e7-846d-d4be3f553573" />
+
 
