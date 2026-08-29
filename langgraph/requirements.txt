@@ -13,6 +13,8 @@ langchain-deepseek
 httpx==0.28.1
 microsoft-agents-copilotstudio-client
 msal
+azure-identity
+rich
 
 # =============================================================
 # jupyter
