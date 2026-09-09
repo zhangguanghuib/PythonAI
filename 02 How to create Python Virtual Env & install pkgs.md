@@ -1,4 +1,8 @@
 ### 0. Install UV
+PowerShell (Official)
+```
+irm https://astral.sh/uv/install.ps1 | iex
+```
 ```
 python -m pip install uv
 ```
