@@ -21,7 +21,7 @@ Untill you see<br/>
 .\venvTest01\Scripts\python.exe -m pip install ipykernel -U --force-reinstall
 ```
 
-### 3. Install the packages
+### 4. Install the packages
 ```
 .\venvLangGraph\Scripts\python.exe -m pip install -r .\requirements.txt
 ```
@@ -52,7 +52,7 @@ Finally see the package are installing:<br/>
 Wait some minutes, you can see the packages are installed:<br/>
 <img width="1917" height="1556" alt="image" src="https://github.com/user-attachments/assets/c4b0de65-1d13-4dba-bf15-67a7c310be88" />
 
-### 4.  Test
+### 5.  Test
 .env file is:
 ```
 DASHSCOPE_API_KEY=sk-*************************K0
