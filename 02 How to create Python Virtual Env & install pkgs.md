@@ -16,6 +16,11 @@ Please run this command to install the module
 Untill you see<br/>
 <img width="442" height="61" alt="image" src="https://github.com/user-attachments/assets/a611927e-aa72-498d-a6e8-021309880493" /><br/>
 
+### 3. Install ipykernel
+```
+.\venvTest01\Scripts\python.exe -m pip install ipykernel -U --force-reinstall
+```
+
 ### 3. Install the packages
 ```
 .\venvLangGraph\Scripts\python.exe -m pip install -r .\requirements.txt
