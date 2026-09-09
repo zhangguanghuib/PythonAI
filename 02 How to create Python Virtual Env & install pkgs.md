@@ -1,3 +1,8 @@
+### 0. Install UV
+```
+python -m pip install uv
+```
+### 1. Create Virtual Environment
 <img width="1710" height="517" alt="image" src="https://github.com/user-attachments/assets/e0ac0959-f217-49ac-91f8-ef695b8fefbc" />### 1. Create a folder called langgraph
 ```ps
 uv venv venvLangGraph --python 3.13
