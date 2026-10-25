@@ -1,10 +1,12 @@
 # PyTorch
 
+## Install PyTorch Package
 ```
 .\venvLangGraph\Scripts\python.exe -m pip install torch torchvision torchaudio `
     --index-url https://download.pytorch.org/whl/cpu `
     --extra-index-url https://packagefeedproxy.microsoft.io/pypi/simple/
 ```
+## Test the torch code
 ```python
 import torch
 
