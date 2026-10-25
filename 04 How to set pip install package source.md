@@ -2,6 +2,7 @@
 
 ## 1. Set Python Package image souce
 ```
+pip config set global.index-url https://packagefeedproxy.microsoft.io/pypi/simple/
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
 pip config set global.index-url https://pypi.mirrors.ustc.edu.cn/simple/
