@@ -22,3 +22,7 @@ git switch guanghui-dev-branch
 git merge main
 git push -u guanghui-dev-branch
 ```
+## 3. Create a Pull Request with command:
+```
+gh pr create --base main --head guanghui-dev-branch --title "Describe your changes" --body "Summary of changes and testing performed" --reviewer "reviewer-username"
+```
