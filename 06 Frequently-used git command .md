@@ -14,3 +14,11 @@ git pull --ff-only origin main
 git merge guanghui-dev-branch
 git push origin main
 ```
+## 2. Made some change on main branch, synch the code to my dev branch
+```
+git switch main
+git pull --ff-only origin main
+git switch guanghui-dev-branch
+git merge main
+git push -u guanghui-dev-branch
+```
